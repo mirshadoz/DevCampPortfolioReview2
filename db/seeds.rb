@@ -13,6 +13,5 @@
     body: "Body number #{item}"
     main_image: "https://via.placeholder.com/600x400"
     thumb_image: "https://via.placeholder.com/300x150"
-
   )
 end
