@@ -8,6 +8,11 @@
 
 10.times do |item|
   Portfolio.create!(
-    
+    title: "Title number #{item}"
+    subtitle: "SubTitle number #{item}"
+    body: "Body number #{item}"
+    main_image: "https://via.placeholder.com/600x400"
+    thumb_image: "https://via.placeholder.com/300x150"
+
   )
 end
